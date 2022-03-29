@@ -5,13 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>KeyCode Challenge</title>
 </head>
 <body>
-    <h1>Press a key to get started!</h1>
-    <p id="code"></p>   
-    <p id="key"></p>
-    <p id="which"></p>
+    <h1>Welcome to the Keycode Generator!</h1>
+    <h2>Press a key to get started</h2>
+    <div id="key-info-container">
+        <div class="key-info-box">
+            <p class="key-header">Code</p>
+            <p id="code" class="key-info">A</p>  
+        </div>
+        <div class="key-info-box">
+            <p class="key-header">Key</p>
+            <p id="key" class="key-info">A</p>
+        </div>
+        <div class="key-info-box">
+            <p class="key-header">Which</p>
+            <p id="which" class="key-info">A</p>          
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>
